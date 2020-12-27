@@ -263,6 +263,12 @@ And for root flag use the lxd privilege escalation
 
 Refer to [LXD Privilege Escalation](https://www.hackingarticles.in/lxd-privilege-escalation/)
 
+If you get an error stating **remote "" does not exist** use the following command
+
+```bash
+lxc remote set-default local
+```
+
 Happy Hacking
 Regards,
 Abhiram B.S.N.
